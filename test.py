@@ -9,7 +9,7 @@ class Todo(BaseModel):
     id: int
     name: str
     description: str
-    date: date  # Format: YYYY-MM-DD
+    date: date
 
 # In-memory list to store todos
 todos: list[Todo] = []
